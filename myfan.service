@@ -1,0 +1,8 @@
+[Unit]
+Description=Self Written Script to control fan speed
+
+[Service]
+ExecStart=/bin/bash /usr/bin/myfan.sh
+
+[Install]
+WantedBy=multi-user.target
